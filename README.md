@@ -1,2 +1,2 @@
-# mobileApp
-mobileapp class project upload
+# MymobileApp
+유찬이의 모바일앱 실습 수업
