@@ -69,5 +69,5 @@
 
 | 사용자 화면 미리 보기 | 기준점수 도달 실패 | 기준점수 도달 성공 |
 | :----------: | :----------: | :----------: |
-| <img src="https://github.com/ckato2785/MymobileApp/blob/main/hunts_uipreview.png" width="200"> | <img src="https://github.com/ckato2785/MymobileApp/blob/main/hunts_uipreviewfail.png" width="200"> | <img src="https://github.com/ckato2785/MymobileApp/blob/main/hunts_uipreviewwin.png" width="200"> |
+| <img src="https://github.com/ckato2785/MymobileApp/blob/main/hunts/hunts_uipreview.png" width="200"> | <img src="https://github.com/ckato2785/MymobileApp/blob/main/hunts/hunts_uipreviewfail.png" width="200"> | <img src="https://github.com/ckato2785/MymobileApp/blob/main/hunts/hunts_uipreviewwin.png" width="200"> |
 | 사용자 화면 | 실패 시 | 성공 시 |
