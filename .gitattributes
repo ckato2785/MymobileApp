@@ -1,1 +1,6 @@
 README.markdown linguist-documentation
+build/ linguist-generated
+.gradle/ linguist-generated
+.vs/ linguist-generated
+*.iml linguist-generated
+hunts/build/ linguist-generated
