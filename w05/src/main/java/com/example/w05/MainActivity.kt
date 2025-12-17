@@ -35,17 +35,21 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            funnyyTheme {
-                // TODO: 여기에 카운터와 스톱워치 UI를 만들도록 안내
-                val count = remember { mutableIntStateOf(0) }
-                Column(
-                    modifier = Modifier.fillMaxSize().padding(16.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.Center
-                ) {
-                    CounterApp(count)
-                    Spacer(modifier = Modifier.height(32.dp))
-                    StopWatchApp()
+            Surface(
+                modifier = Modifier.fillMaxSize(),
+                color = Color(0xFF87CEEB) // Sky Blue
+            ) {
+                FunnyyTheme {
+                    val count = remember { mutableIntStateOf(0) }
+                    Column(
+                        modifier = Modifier.fillMaxSize().padding(16.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center
+                    ) {
+                        CounterApp(count)
+                        Spacer(modifier = Modifier.height(32.dp))
+                        StopWatchApp()
+                    }
                 }
             }
         }

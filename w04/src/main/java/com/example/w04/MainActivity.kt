@@ -30,6 +30,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.w04.ui.theme.FunnyyTheme
 import com.example.w04.R
+import androidx.compose.material3.Surface
+import androidx.compose.ui.graphics.Color
 
 
 data class ChatMessage(val name: String, val msg: String)
@@ -49,16 +51,21 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun HomeScreen() {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp)
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = Color(0xFF87CEEB)
     ) {
-        ProfileCard(data = Profile("정유찬", "모바일 앱 개발자"))
-        Spacer(modifier = Modifier.height(16.dp))
-        MessageCard(me = ChatMessage("참새", "하늘을 날아요"))
-        Spacer(modifier = Modifier.height(8.dp))
-        MessageCard(me = ChatMessage("YUCHAN", "MAKE THE WORLD"))
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(16.dp)
+        ) {
+            ProfileCard(data = Profile("정유찬", "개발자 아기새"))
+            Spacer(modifier = Modifier.height(16.dp))
+            MessageCard(me = ChatMessage("참새", "하늘을 날고싶어요"))
+            Spacer(modifier = Modifier.height(8.dp))
+            MessageCard(me = ChatMessage("YUCHAN", "I like sparrow!!"))
+        }
     }
 }
 

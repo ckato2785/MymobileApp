@@ -27,14 +27,7 @@ class MainActivity : ComponentActivity() {
 
 
 @Composable
-fun HomeScreen() {
-    Text(
-        text = "Compose Modifier를 배워보자~"
-    )
-}
+fun HomeScreen(){
 
-@Preview(showBackground = true)
-@Composable
-fun HomePreview() {
-    HomeScreen()
 }
+@Preview

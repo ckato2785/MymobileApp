@@ -41,17 +41,18 @@ fun HomeScreen() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text(text = "Compose Coffee",
+        Text(text = "어깨걸이 극락조",
             style = MaterialTheme.typography.headlineMedium)
+        Text(text = "영어 이름 : Superb bird-of-paradise")
         Image(
-            painter = painterResource(id = R.drawable.compose),
-            contentDescription = "Jetpack Compose 로고",
+            painter = painterResource(id = R.drawable.superb),
+            contentDescription = "새의 사진",
             modifier = Modifier
                 .size(300.dp) // 이미지 크기 지정
                 .padding(16.dp)
         )
 
-        Text(text = "위치 : 우송대 정문 앞",
+        Text(text = "뒤 : 수컷 | 앞 : 암컷",
             style = MaterialTheme.typography.headlineMedium)
     }
 }
