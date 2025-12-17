@@ -7,7 +7,7 @@
 | :--: | :----------: | :----------: | :----------: | :----------: |
 | **기본적인 코드** | <img src="https://github.com/ckato2785/MymobileApp/blob/main/w03/w03_preview.png" width="200"> | <img src="https://github.com/ckato2785/MymobileApp/blob/main/w04/w04_preview.png" width="200"> | <img src="https://github.com/ckato2785/MymobileApp/blob/main/w05/w05_preview.png" width="200"> | <img src="https://github.com/ckato2785/MymobileApp/blob/main/w06/w06_preview.png" width="200"> |
 | **나만의 수정 후** | <img src="https://github.com/ckato2785/MymobileApp/blob/main/app/w03_myself.png" width="200"> | <img src="https://github.com/ckato2785/MymobileApp/blob/main/app/w04_myself.png" width="200"> | <img src="https://github.com/ckato2785/MymobileApp/blob/main/app/w05_myself.png" width="200"> | - |
-| 변경된 w03 미리보기 | 변경된 w04 미리보기 | 변경된 w05 미리보기 | 변경된 w06 미리보기 |
+| 구분 | 변경된 w03 미리보기 | 변경된 w04 미리보기 | 변경된 w05 미리보기 | 변경된 w06 미리보기 |
 
 
 # 참새 사냥 게임 만들기 PROJECT!
